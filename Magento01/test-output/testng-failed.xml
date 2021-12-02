@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Magento suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Login page(failed)">
+    <classes>
+      <class name="com.TestCase.TC_Login_Page_Objectes">
+        <methods>
+          <include name="Logintestcase"/>
+          <include name="lanuchBrowser"/>
+        </methods>
+      </class> <!-- com.TestCase.TC_Login_Page_Objectes -->
+    </classes>
+  </test> <!-- Test Login page(failed) -->
+</suite> <!-- Failed suite [Magento suite] -->
